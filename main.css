@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+header,
+section h2,
+section h3,
+form buttom {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body, input, textarea {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    padding: 15px 0;
+    background-color: #1e1841;
+    color: #ecf0f1;
+}
+
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size:20px;
+}
+
+header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {          /*por as palavras do lado da imagem*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.brands-list img {
+    height: 24px;
+}
+/*uma do lado do outro*/
+.brands-list li {   
+    display:inline;
+    margin-right: 10px;
+}
+/*centralizar os textos*/
+section .container {
+    align-items:flex-start;
+}
+/*separar texto - da uma respirada*/
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #24376b;
+}
+
+section {
+    color:#24376b;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+/*add um espaçamento entre img e texto*/
+.store-front {
+    margin-right: 32px;
+}
+
+
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+
+#contact .container {
+    display:block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form buttom {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 3px;
+}
+
+form textarea {
+    resize: none;
+    height:100px; 
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #112251;
+    color: #ecf0f1;
+    border:none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #7a8ec6;
+}
+
+input:focus, textarea:focus {
+    outline-color: #7a8ec6;
+}
+
+footer {
+    background-color: #112251;
+    color:#fff;
+    padding: 10px;
+}
